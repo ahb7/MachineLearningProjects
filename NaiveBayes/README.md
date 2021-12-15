@@ -1,4 +1,4 @@
 #### Running it:
-Have both the files under same directory and run as:
+Have all the files under same directory and run as:
 
-python
+python NaiveBayesClassifier.py
