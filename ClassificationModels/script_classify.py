@@ -7,6 +7,8 @@ import numpy as np
 import time
 
 import classalgorithms as algs
+
+start_time = time.time()
  
 def loadcsv(filename):
     dataset = np.genfromtxt(filename, delimiter=',')
@@ -72,5 +74,5 @@ if __name__ == '__main__':
             accuracy = getaccuracy(testset0[1], predictions)
         
         print ('Accuracy for ' + learnername + ': ' + str(accuracy))
-        #print ('Time :', (time.time() - start_time))
+        print ('Time :', (time.time() - start_time))
  
